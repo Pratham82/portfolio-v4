@@ -1,8 +1,8 @@
 ---
 title: Functional Programming with JS
 # date: 28 June 2021
-date: "2021-06-28"
-# date: 2021-06-28
+# date: "2021-06-28"
+date: 2021-06-28
 description: All the usual blog post.
 tags: ["post"]
 ---

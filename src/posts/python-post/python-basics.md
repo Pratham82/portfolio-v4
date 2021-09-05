@@ -1,8 +1,8 @@
 ---
 title: Learn Python Basics🐍
 cover: ./image.jpg
-date: "2020-07-18"
-# date: 2020-07-18
+# date: "2020-07-18"
+date: 2020-07-18
 description: All the usual blog post.
 tags: ["post"]
 ---

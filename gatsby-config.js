@@ -10,6 +10,9 @@ module.exports = {
     title: "<Prathamesh/>",
     author: "Prathamesh Mali",
   },
+  flags: {
+    DEV_SSR: false,
+  },
   plugins: [
     "gatsby-plugin-sass",
     {

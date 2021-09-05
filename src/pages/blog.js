@@ -1,7 +1,7 @@
 import React from "react"
 import Layout from "../components/layout"
 import { graphql, useStaticQuery, Link } from "gatsby"
-import blogStyles from "./blog.module.scss"
+import blogStyles from "../styles/blogs.module.scss"
 
 const Blog = () => {
   const data = useStaticQuery(graphql`
@@ -24,23 +24,6 @@ const Blog = () => {
       }
     }
   `)
-
-  console.log(
-    data.allMarkdownRemark.edges
-      .map(v => v.node.frontmatter.date)
-      .sort((a, b) => new Date(b) - new Date(a))
-  )
-  console.log(data.allMarkdownRemark.edges)
-
-  // console.log(
-  //   data.allMarkdownRemark.edges.sort(
-  //     (a, b) =>
-  //       new Date(a.node.fields.frontmatter.date) -
-  //       new Date(b.node.fields.frontmatter.date)
-  //   )
-  // )
-
-  // console.log(data.allMarkdownRemark.edges.map(v => v.node.frontmatter))
 
   return (
     <Layout>

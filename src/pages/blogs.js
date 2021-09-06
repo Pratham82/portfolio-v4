@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import { graphql, useStaticQuery, Link } from "gatsby"
 import blogStyles from "../styles/blogs.module.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faClock, faCalendar } from "@fortawesome/free-solid-svg-icons"
 
 const Blog = () => {
   const data = useStaticQuery(graphql`
@@ -14,7 +16,6 @@ const Blog = () => {
           node {
             frontmatter {
               title
-              # date
               date(formatString: "DD MMM YYYY")
               description
               tags
@@ -39,17 +40,18 @@ const Blog = () => {
           return (
             <li className={blogStyles.post} key={edge.node.frontmatter.title}>
               <Link to={`/blog/${edge.node.fields.slug}`}>
-                <h3 style={{ marginBottom: "2px" }}>
+                <h4 style={{ marginBottom: "2px" }}>
                   {edge.node.frontmatter.title}
-                </h3>
+                </h4>
                 <span>{edge.node.frontmatter.description}</span>
                 <p>
+                  <FontAwesomeIcon icon={faCalendar} />
+                  &nbsp;
                   {edge.node.frontmatter.date} &nbsp;{" "}
+                  <FontAwesomeIcon icon={faClock} />
+                  &nbsp;
                   <b>{edge.node.fields.readingTime.text}</b>
                 </p>
-                {/* <span>
-                  <b>{edge.node.fields.readingTime.text}</b>
-                </span> */}
               </Link>
             </li>
           )

@@ -21,6 +21,9 @@ const Blog = () => {
             }
             fields {
               slug
+              readingTime {
+                text
+              }
             }
           }
         }
@@ -40,7 +43,13 @@ const Blog = () => {
                   {edge.node.frontmatter.title}
                 </h3>
                 <span>{edge.node.frontmatter.description}</span>
-                <p>{edge.node.frontmatter.date}</p>
+                <p>
+                  {edge.node.frontmatter.date} &nbsp;{" "}
+                  <b>{edge.node.fields.readingTime.text}</b>
+                </p>
+                {/* <span>
+                  <b>{edge.node.fields.readingTime.text}</b>
+                </span> */}
               </Link>
             </li>
           )

@@ -41,6 +41,7 @@ module.exports = {
               inlineCodeMarker: "÷",
             },
           },
+          `gatsby-remark-reading-time`,
         ],
       },
     },

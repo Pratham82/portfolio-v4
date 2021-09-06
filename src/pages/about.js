@@ -5,9 +5,9 @@ import Head from "../components/head"
 const About = () => (
   <Layout>
     <Head title="About" />
-    <h1>About Me</h1>I am mainly do web developement. My current favourite tech
-    stack is React asd Node.js. I am a BSc graduate, Now doing my MSc in
-    Computer Science.
+    <h1>About Me</h1>
+   <b>Full-stack</b>  software developer, experienced with <b>MERN</b> and <b>MEAN</b> stack.
+    Passionate about <b>tech</b> and <b>opensource</b>. I like to learn new things every day
   </Layout>
 )
 

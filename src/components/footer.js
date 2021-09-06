@@ -1,6 +1,8 @@
 import React from "react"
 import { graphql, useStaticQuery } from "gatsby"
 import footerStyles from "../styles/footer.module.scss"
+import Socials from "./socials"
+import CommonLink from "../components/commonLink"
 
 const Footer = () => {
   const author = useStaticQuery(graphql`
@@ -14,24 +16,24 @@ const Footer = () => {
   `)
   return (
     <footer className={footerStyles.footer}>
-      <p>
-        Created with{" "}
+      <Socials size="lg" />
+      <br />
+      <br />
+      <span style={{ fontSize: "16px" }} className={footerStyles.footerText}>
+        Created with
         <span role="img" aria-label="heart">
           {" "}
           ❤️{" "}
         </span>{" "}
         by &nbsp;
         <b>
-          <a
-            href="https://www.github.com/pratham82"
-            target="_"
-            style={{ textDecoration: "none", color: "black" }}
-          >
-            {author.site.siteMetadata.author}
-          </a>
+          <CommonLink
+            link="https://www.github.com/pratham82"
+            title={author.site.siteMetadata.author}
+          />
         </b>
-        &copy; 2021
-      </p>{" "}
+        &nbsp;&copy; 2021
+      </span>{" "}
     </footer>
   )
 }

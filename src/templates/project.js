@@ -33,5 +33,3 @@ const Project = ({ title, desc, imageKey, git, live, stackUsed }) => (
 )
 
 export default Project
-
-// <React.Fragment>{title}</React.Fragment>

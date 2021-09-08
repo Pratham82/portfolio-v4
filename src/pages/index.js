@@ -1,5 +1,5 @@
 import React from "react"
-import { Link } from "gatsby"
+// import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import TechStackMinimal from "../components/techStackMinimal"
@@ -34,8 +34,7 @@ const Heading = () => (
       <br />
       <p>My current tech stack:</p>
       <TechStackMinimal size="2x" />
-      <br />
-      <br />
+      {/* <br />
       <br />
       <Link to="/projects" className="cleanLink">
         <b>Projects ↗</b>
@@ -43,7 +42,7 @@ const Heading = () => (
       &nbsp; &nbsp;
       <Link to="/blogs" className="cleanLink">
         <b>Blog ↗</b>
-      </Link>
+      </Link> */}
     </div>
   </Layout>
 )

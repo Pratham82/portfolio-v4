@@ -18,7 +18,7 @@ const Project = ({ title, desc, imageKey, git, live, stackUsed }) => (
     <span className={projectStyles.btnLink}>
       <a href={git} className={projectStyles.cleanLink}>
         <FontAwesomeIcon icon={faGithub} />
-        &nbsp; git
+        &nbsp; code
       </a>
     </span>
     {/* <div className={projectStyles.stack}> */}

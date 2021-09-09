@@ -71,6 +71,7 @@ const Header = () => {
           </Link>{" "}
         </li>
       </ul>
+      {/* <Socials size="lg" /> */}
     </header>
   )
 }

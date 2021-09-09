@@ -1,10 +1,20 @@
 .footer {
-  margin-top: 4rem;
+  margin-top: 5rem;
   text-align: center;
 }
 
+.spacing {
+  display: block;
+  margin-top: 10px;
+}
+
 .footerText {
-  margin-top: 18px;
+  // display: block;
+  margin-top: 35px;
   margin-bottom: none;
-  font-size: 16px;
+  font-size: 14px;
+  img {
+    height: 20px;
+    margin-block: -5px;
+  }
 }

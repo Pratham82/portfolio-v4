@@ -2,6 +2,8 @@ import React from "react"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import aboutStyles from "../styles/about.module.scss"
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
+import { faDownload } from "@fortawesome/free-solid-svg-icons"
 
 const About = () => (
   <Layout>
@@ -25,7 +27,14 @@ const About = () => (
       Edulab
       <span className={aboutStyles.location}> &nbsp; Mumbai</span>
     </span>
-    <span className={aboutStyles.duration}>Feb 2021 - June 2021</span>
+    <a
+      href="https://drive.google.com/uc?id=1_NYNdFqetjN2dzzM0UAI7Ovni1g2tSQn&export=download"
+      style={{ textDecoration: "none", display: "block", marginTop: "20px" }}
+      className={aboutStyles.resumeBtn}
+    >
+      <FontAwesomeIcon icon={faDownload} />
+      &nbsp; Resume
+    </a>
   </Layout>
 )
 

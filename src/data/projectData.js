@@ -31,6 +31,14 @@ const projectData = [
     live: "https://yoda-app-mark07.netlify.app/",
     stackUsed: ["HTML", "CSS", "JS"],
   },
+  {
+    title: "Emoji Interpreter",
+    desc: "Animals emoji interpreter",
+    imageKey: "",
+    git: "https://github.com/Pratham82/emoji-interpreter",
+    live: "https://emoji-interpreter-mark08.netlify.app/",
+    stackUsed: ["HTML", "CSS", "JS", "REACT"],
+  },
 ]
 
 export default projectData

@@ -39,6 +39,14 @@ const projectData = [
     live: "https://emoji-interpreter-mark08.netlify.app/",
     stackUsed: ["HTML", "CSS", "JS", "REACT"],
   },
+   {
+    title: "Book Recommnedation",
+    desc: "App for book recommendation list",
+    imageKey: "",
+    git: "https://github.com/Pratham82/book-recommendations",
+    live: "https://book-recommendation-mark09.netlify.app/",
+    stackUsed: ["HTML", "CSS", "JS", "REACT"],
+  },
 ]
 
 export default projectData

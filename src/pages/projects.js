@@ -12,8 +12,9 @@ const Projects = () => {
     <Layout>
       <Head title="Projects" />
       <h1>Projects</h1>
-      {Object.entries(AllProjects).map(([type, data]) => (
+      {Object.entries(AllProjects).map(([type, data], i) => (
         <button
+          key={i}
           onClick={() => setCurrentProject(type)}
           className={`${projectStyles.projectNav}
             ${currentProject === type && projectStyles.activeProject}`}

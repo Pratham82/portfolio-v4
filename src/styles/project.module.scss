@@ -68,6 +68,7 @@
 }
 
 .projectNav {
+  font-size: 16px;
   background-color: white;
   border: none;
   cursor: pointer;
@@ -75,7 +76,16 @@
 }
 
 .activeProject {
+  font-size: 16px;
+  background-color: white;
   font-weight: bold;
   background-color: rgb(185, 185, 185);
+  border-radius: 7px;
+}
+
+.projectCount {
+  background-color: rgb(223, 223, 223);
+  margin-left: 5px;
+  padding: 0px 5px;
   border-radius: 7px;
 }

@@ -19,7 +19,8 @@ const Projects = () => {
           className={`${projectStyles.projectNav}
             ${currentProject === type && projectStyles.activeProject}`}
         >
-          {type}
+          {type}{" "}
+          <span className={projectStyles.projectCount}>{data.length}</span>
         </button>
       ))}
       <div className={projectStyles.allProjects}>

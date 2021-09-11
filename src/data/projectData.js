@@ -47,6 +47,14 @@ const projectData = [
     live: "https://book-recommendation-mark09.netlify.app/",
     stackUsed: ["HTML", "CSS", "JS", "REACT"],
   },
+  {
+    title: "Cash Register",
+    desc: "Calculate change and denominations",
+    imageKey: "",
+    git: "https://github.com/Pratham82/cash-register-app",
+    live: "https://cash-register-mark10-pratham82.netlify.app/",
+    stackUsed: ["HTML", "CSS", "JS", "REACT"],
+  },
 ]
 
 export default projectData

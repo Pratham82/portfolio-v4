@@ -39,6 +39,7 @@
 .allProjects {
   display: flex;
   flex-wrap: wrap;
+  margin-top: 15px;
 }
 
 .btnLink {
@@ -64,4 +65,17 @@
   .projectContainer {
     width: 100%;
   }
+}
+
+.projectNav {
+  background-color: white;
+  border: none;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+.activeProject {
+  font-weight: bold;
+  background-color: rgb(185, 185, 185);
+  border-radius: 7px;
 }

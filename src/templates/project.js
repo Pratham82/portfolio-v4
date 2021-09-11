@@ -9,12 +9,14 @@ const Project = ({ title, desc, imageKey, git, live, stackUsed }) => (
   <div className={projectStyles.projectContainer}>
     <span className={projectStyles.title}>{title}</span>
     <span className={projectStyles.desc}>{desc}</span>
-    <span className={projectStyles.btnLink}>
-      <a href={live} className={projectStyles.cleanLink}>
-        <FontAwesomeIcon icon={faLink} />
-        &nbsp; live
-      </a>
-    </span>
+    {live && (
+      <span className={projectStyles.btnLink}>
+        <a href={live} className={projectStyles.cleanLink}>
+          <FontAwesomeIcon icon={faLink} />
+          &nbsp; live
+        </a>
+      </span>
+    )}
     <span className={projectStyles.btnLink}>
       <a href={git} className={projectStyles.cleanLink}>
         <FontAwesomeIcon icon={faGithub} />

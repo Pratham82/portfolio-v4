@@ -50,6 +50,14 @@ const AllProjects = {
     },
     {
       title: "Cash Register",
+      desc: "Check if your birthday is lucky",
+      imageKey: "",
+      git: "https://github.com/Pratham82/lucky-birthday-checker",
+      live: "https://lucky-birthday-checker-mark11.netlify.app/",
+      stackUsed: ["HTML", "CSS", "JS", "REACT"],
+    },
+     {
+      title: "Lucky birthday checker",
       desc: "Calculate change and denominations",
       imageKey: "",
       git: "https://github.com/Pratham82/cash-register-app",

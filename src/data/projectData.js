@@ -17,6 +17,15 @@ const AllProjects = {
       stackUsed: ["JS", "CLI"],
     },
     {
+      title: "My Portfolio",
+      desc: "Personal portfolio for projects and blogs",
+      imageKey: "",
+      git: "https://github.com/Pratham82/portfolio-v4",
+      live:
+        "https://prathamesh-mali.netlify.app/https://replit.com/@pratham82/mark2?embed=true#index.js",
+      stackUsed: ["REACT", "GATSBY", "SCSS", "GRAPHQL"],
+    },
+    {
       title: "Minion translator",
       desc: "App for translating english to Minion lang",
       imageKey: "",
@@ -56,12 +65,20 @@ const AllProjects = {
       live: "https://lucky-birthday-checker-mark11.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
-     {
+    {
       title: "Lucky birthday checker",
       desc: "Calculate change and denominations",
       imageKey: "",
       git: "https://github.com/Pratham82/cash-register-app",
       live: "https://cash-register-mark10-pratham82.netlify.app/",
+      stackUsed: ["HTML", "CSS", "JS", "REACT"],
+    },
+    {
+      title: "Birthday Palindrome",
+      desc: "birthday palindrome checker",
+      imageKey: "",
+      git: "https://github.com/Pratham82/birthday-palindrome-checker",
+      live: "https://pratham82-palindrome-birthday.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
   ],

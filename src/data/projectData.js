@@ -57,8 +57,8 @@ const AllProjects = {
       live: "https://book-recommendation-mark09.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
-    {
-      title: "Cash Register",
+    {  
+      title: "Lucky birthday checker",
       desc: "Check if your birthday is lucky",
       imageKey: "",
       git: "https://github.com/Pratham82/lucky-birthday-checker",
@@ -66,7 +66,7 @@ const AllProjects = {
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
     {
-      title: "Lucky birthday checker",
+      title: "Cash Register",
       desc: "Calculate change and denominations",
       imageKey: "",
       git: "https://github.com/Pratham82/cash-register-app",

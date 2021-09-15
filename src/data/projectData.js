@@ -65,7 +65,7 @@ const AllProjects = {
       live: "https://cash-register-mark10-pratham82.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
-    {  
+    {
       title: "Lucky birthday checker",
       desc: "Check if your birthday is lucky",
       imageKey: "",
@@ -79,6 +79,14 @@ const AllProjects = {
       imageKey: "",
       git: "https://pratham82-palindrome-birthday-mark-13.netlify.app/",
       live: "https://pratham82-palindrome-birthday.netlify.app/",
+      stackUsed: ["HTML", "CSS", "JS", "REACT"],
+    },
+    {
+      title: "Stock Profit & Loss Calculator",
+      desc: "Calculate the profit/loss with given stocks",
+      imageKey: "",
+      git: "https://github.com/Pratham82/stock-profit-calculator",
+      live: "https://pratham82-stock-profit-calculator.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
   ],

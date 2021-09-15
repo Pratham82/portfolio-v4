@@ -1,8 +1,8 @@
 import React from "react"
 import Header from "./header"
-import Footer from "./footer"
 import "../styles/index.scss"
 import layoutStyles from "../styles/layout.module.scss"
+import CustomFooter from "./customFooter"
 
 const Layout = props => (
   <div className={layoutStyles.container}>
@@ -10,7 +10,7 @@ const Layout = props => (
       <Header />
       {props.children}{" "}
     </div>
-    <Footer />
+    <CustomFooter size="lg" color="black" author="Prathamesh Mali" />
   </div>
 )
 

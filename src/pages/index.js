@@ -16,33 +16,41 @@ const Heading = () => (
         title="Prathamesh"
         className={homeStyles.avatarStyles}
       />
-      <h2>
+      <h3>
         Hi{" "}
-        {/* <span role="img" aria-label="wave">
+        <span role="img" aria-label="wave">
         👋{" "}
-      </span>{" "} */}
-        I'm Prathamesh
-      </h2>
-      <h3>I'm a Full-stack Software Developer.</h3>
-      <h4>
+      </span>{" "}
+        I'm Prathamesh ;
+      </h3>
+      <h4>I'm a Full-stack Software Developer ; based in Mumbai{" "}
+        <span role="img" aria-label="pushpin">
+          {" "}
+          📍
+        </span></h4>
+      {/* <h5>
         Based in Mumbai{" "}
         <span role="img" aria-label="pushpin">
           {" "}
           📍
         </span>
-      </h4>
+      </h5> */}
       <br />
-      <p>My current tech stack:</p>
-      <TechStackMinimal size="2x" />
-      {/* <br />
+      <p style={{marginBottom: '5px'}}>My current tech stack:</p>
+      <TechStackMinimal size="1x" />
       <br />
-      <Link to="/projects" className="cleanLink">
+      <br />
+      {/* <Link to="/projects" className="cleanLink">
         <b>Projects ↗</b>
       </Link>
       &nbsp; &nbsp;
       <Link to="/blogs" className="cleanLink">
         <b>Blog ↗</b>
       </Link> */}
+      <a href="https://github.com/pratham82" target="_" style={{textDecoration:'none'}}>
+        My github contributions:
+      <img src="http://ghchart.rshah.org/pratham82" alt="Prathamesh's Github chart" className="background-tint"/>
+      </a>
     </div>
   </Layout>
 )

@@ -24,6 +24,10 @@ section,
 summary {
   display: block;
 }
+.background-tint {
+  margin-top: 10px;
+  filter:  grayscale(90%) 
+}
 audio,
 canvas,
 progress,

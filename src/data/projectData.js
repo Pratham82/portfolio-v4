@@ -95,8 +95,8 @@ const AllProjects = {
       desc: "birthday palindrome checker",
       imageKey: "",
       mark: ["Mark 13"],
-      git: "https://pratham82-palindrome-birthday-mark-13.netlify.app/",
-      live: "https://pratham82-palindrome-birthday.netlify.app/",
+      git: "https://github.com/Pratham82/birthday-palindrome-checker",
+      live: "https://pratham82-palindrome-birthday-mark-13.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
     },
     {

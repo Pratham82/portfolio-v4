@@ -6,7 +6,7 @@ import Project from "../templates/project"
 import projectStyles from "../styles/project.module.scss"
 
 const Projects = () => {
-  const [currentProject, setCurrentProject] = useState("neoG Projects")
+  const [currentProject, setCurrentProject] = useState("Mark 15 Projects")
 
   return (
     <Layout>

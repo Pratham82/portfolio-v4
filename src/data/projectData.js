@@ -1,5 +1,5 @@
 const AllProjects = {
-  "neoG Projects": [
+  "Mark 15 Projects": [
     {
       title: "Do You Know Me",
       desc: "CLI app",
@@ -72,6 +72,14 @@ const AllProjects = {
       git: "https://github.com/Pratham82/lucky-birthday-checker",
       live: "https://lucky-birthday-checker-mark11.netlify.app/",
       stackUsed: ["HTML", "CSS", "JS", "REACT"],
+    },
+    {
+      title: "Fun with triangles",
+      desc: "Triangle fiesta",
+      imageKey: "",
+      git: "https://github.com/Pratham82/fun-with-triangles",
+      live: "https://pratham82-fun-with-triangles.netlify.app/",
+      stackUsed: ["HTML", "CSS", "JS", "REACT", "REACT ROUTER"],
     },
     {
       title: "Birthday Palindrome",

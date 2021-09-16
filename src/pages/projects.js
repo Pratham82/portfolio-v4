@@ -24,16 +24,20 @@ const Projects = () => {
         </button>
       ))}
       <div className={projectStyles.allProjects}>
-        {AllProjects[currentProject].map(project => (
-          <Project
-            key={project.title}
-            title={project.title}
-            desc={project.desc}
-            stackUsed={project.stackUsed}
-            git={project.git}
-            live={project.live}
-          />
-        ))}
+        {AllProjects[currentProject].map(project => {
+          const { title, desc, stackUsed, git, live, mark } = project
+          return (
+            <Project
+              key={title}
+              title={title}
+              desc={desc}
+              stackUsed={stackUsed}
+              git={git}
+              live={live}
+              mark={mark}
+            />
+          )
+        })}
       </div>
     </Layout>
   )

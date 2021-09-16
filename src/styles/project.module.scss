@@ -13,6 +13,7 @@
   transform: scale(1.015);
   // background: #cfcfcf;
   background: #cacaca;
+  position: relative;
 }
 .title {
   display: block;
@@ -88,4 +89,12 @@
   margin-left: 5px;
   padding: 0px 5px;
   border-radius: 7px;
+}
+
+.markStyles {
+  background-color: rgb(189, 188, 183);
+  padding: 0 10px;
+  border-radius: 15px;
+  border: 0.1px solid black;
+  float: right;
 }

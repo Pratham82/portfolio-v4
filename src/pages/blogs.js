@@ -4,6 +4,7 @@ import { graphql, useStaticQuery, Link } from "gatsby"
 import blogStyles from "../styles/blogs.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faClock, faCalendar } from "@fortawesome/free-solid-svg-icons"
+import Head from "../components/head"
 
 const Blog = () => {
   const data = useStaticQuery(graphql`

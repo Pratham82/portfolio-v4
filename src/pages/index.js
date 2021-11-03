@@ -14,7 +14,6 @@ const Heading = () => (
         src='https://github.com/Pratham82.png'
         alt="avatar"
         title="Prathamesh"
-        style={{filter: 'grayscale(50%);'}}
         className={homeStyles.avatarStyles}
       />
       <h3>

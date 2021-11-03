@@ -1,9 +1,7 @@
 import React from "react"
-// import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
 import TechStackMinimal from "../components/techStackMinimal"
-import avatar from "../../static/avatar.png"
 import homeStyles from "../styles/home.module.scss"
 import { Link } from "gatsby"
 
@@ -12,9 +10,11 @@ const Heading = () => (
     <Head title="Home" />
     <div className={homeStyles.homeContainer}>
       <img
-        src={avatar}
+        // src={avatar}
+        src='https://github.com/Pratham82.png'
         alt="avatar"
         title="Prathamesh"
+        style={{filter: 'grayscale(50%);'}}
         className={homeStyles.avatarStyles}
       />
       <h3>

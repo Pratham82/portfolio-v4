@@ -4,6 +4,7 @@ import Head from "../components/head"
 import aboutStyles from "../styles/about.module.scss"
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faDownload } from "@fortawesome/free-solid-svg-icons"
+import countExp from "../helpers/countExp"
 
 const About = () => (
   <Layout>
@@ -15,7 +16,10 @@ const About = () => (
     <br />
     <br />
     <br />
-    <h1>Work Experience</h1>
+    <span className={aboutStyles.expHeader}>
+      Work Experience
+      <span className={aboutStyles.expYears}> &nbsp; {countExp()}</span>
+    </span>
     <span className={aboutStyles.designation}>Software Developer</span>
     <span className={aboutStyles.company}>
       Edstem Technologies

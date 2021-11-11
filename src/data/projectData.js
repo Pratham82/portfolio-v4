@@ -110,7 +110,7 @@ const AllProjects = {
     },
   ],
 
-  "React && MERN": [
+  "React": [
     {
       title: "LaunchPad",
       desc: "Launchpad is a platform for sharing products",

@@ -43,7 +43,7 @@ const Heading = () => (
       >
         My github contributions:
         <img
-          src="http://ghchart.rshah.org/pratham82"
+          src="https://ghchart.rshah.org/pratham82"
           alt="Prathamesh's Github chart"
           className="background-tint"
         />

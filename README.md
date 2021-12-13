@@ -1,6 +1,6 @@
 # My current portfolio
 
-### Built with Gatsby + React + Scss
+### Built with Gatsby + React + SCSS
 
 <br>
 

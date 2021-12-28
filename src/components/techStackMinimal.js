@@ -6,7 +6,6 @@ import {
   faDocker,
   faGithub,
   faHtml5,
-  faJava,
   faJs,
   faNode,
   faPython,
@@ -31,12 +30,6 @@ const TechStackMinimal = () => (
     &nbsp; &nbsp;
     <FontAwesomeIcon icon={faNode} title="NodeJS" size="2x" color="black" />
     &nbsp; &nbsp;
-    <img
-      style={{ marginBlock: "-5px" }}
-      alt="mysql"
-      src="https://img.icons8.com/ios-filled/38/000000/mysql-logo.png"
-    />
-    &nbsp; &nbsp;
     <FontAwesomeIcon icon={faHtml5} title="HTML" size="2x" color="black" />
     &nbsp; &nbsp;
     <FontAwesomeIcon icon={faCss3} title="CSS" size="2x" color="black" />
@@ -44,8 +37,6 @@ const TechStackMinimal = () => (
     <FontAwesomeIcon icon={faSass} title="Scss" size="2x" color="black" />
     &nbsp; &nbsp;
     <FontAwesomeIcon icon={faPython} title="Python" size="2x" color="black" />
-    &nbsp; &nbsp;
-    <FontAwesomeIcon icon={faJava} title="Java" size="2x" color="black" />
     &nbsp; &nbsp;
     <FontAwesomeIcon icon={faGithub} title="Github" size="2x" color="black" />
     &nbsp; &nbsp;

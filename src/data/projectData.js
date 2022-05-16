@@ -1,6 +1,31 @@
 const AllProjects = {
   React: [
     {
+      title: "SNKR Town",
+      desc:
+        "SNKR(Sneaker) Town is home to all sneakerheads and sneaker enthusiasts.",
+      imageKey: "",
+      git: "https://github.com/Pratham82/snkr-town",
+      live: "https://snkr-town.vercel.app/",
+      stackUsed: ["React", "TypeScript", "CSS", "Context API"],
+    },
+    {
+      title: "Code Tube",
+      desc: "Code tube a video library application curated with coding videos.",
+      imageKey: "",
+      git: "https://github.com/Pratham82/code-tube",
+      live: "https://code-tube.vercel.app/",
+      stackUsed: ["React", "TypeScript", "SCSS", "Context API"],
+    },
+    {
+      title: "Pop Quiz",
+      desc: "Pop quiz is the quiz app including quiz about pop culture",
+      imageKey: "",
+      git: "https://github.com/Pratham82/pop-quiz",
+      live: "https://pop-quiz.vercel.app/",
+      stackUsed: ["React", "TypeScript", "CSS", "Context API"],
+    },
+    {
       title: "LaunchPad",
       desc: "Launchpad is a platform for sharing products",
       imageKey: "",
@@ -49,7 +74,6 @@ const AllProjects = {
       stackUsed: ["React", "Redux", "HTML", "CSS", "JS"],
     },
   ],
-
   VanillaJS: [
     {
       title: "PokeDex",
@@ -84,6 +108,16 @@ const AllProjects = {
       stackUsed: ["HTML", "CSS", "Django"],
     },
   ],
+  CSS: [
+    {
+      title: "Min UI",
+      desc: "Component library made with HTML & CSS",
+      imageKey: "",
+      git: "https://github.com/Pratham82/min-ui",
+      live: "https://min-ui.netlify.app/",
+      stackUsed: ["HTML", "CSS", "JS"],
+    },
+  ],
 
   Backend: [
     {
@@ -95,7 +129,7 @@ const AllProjects = {
       stackUsed: ["TS", "Express", "Mongo", "Mongoose", "Docker"],
     },
   ],
-  "NeoG camp projects": [
+  "NeoG camp": [
     {
       title: "Do You Know Me",
       mark: ["Mark 1"],

@@ -18,14 +18,20 @@ const About = () => (
     <br />
     <span className={aboutStyles.expHeader}>
       Work Experience
-      <span className={aboutStyles.expYears}> &nbsp; {countExp()}</span>
+      <span className={aboutStyles.expYears}></span>
     </span>
+    <span className={aboutStyles.designation}>SDE - 1 </span>
+    <span className={aboutStyles.company}>
+      Mosaic Wellness
+      <span className={aboutStyles.location}> &nbsp; Mumbai</span>
+    </span>
+    <span className={aboutStyles.duration}>June 2022 - Present</span>
     <span className={aboutStyles.designation}>Software Developer</span>
     <span className={aboutStyles.company}>
       Edstem Technologies
       <span className={aboutStyles.location}> &nbsp; Kerala (Remote)</span>
     </span>
-    <span className={aboutStyles.duration}>July 2021 - Present</span>
+    <span className={aboutStyles.duration}>July 2021 - April 2022</span>
     <span className={aboutStyles.designation}>Junior Software Developer</span>
     <span className={aboutStyles.company}>
       Edulab
